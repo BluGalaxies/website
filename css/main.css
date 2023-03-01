@@ -1,0 +1,112 @@
+:root {
+  background-image: url(background2.svg);
+  background-size: cover;
+  background-position: 48%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+
+h1 {
+  font-size: 90px;
+}
+.logo {
+  display: block;
+  margin: auto;
+  height: 15em;
+  width: 15em;
+  border-radius: 600px;
+  margin-top: 180px;
+}
+
+footer {
+  font-weight: bolder;
+  font-size: 25px;
+  margin: flex;
+  border: 2px;
+  padding-top: 50px;
+  color: white;
+  text-align: center;
+  text-transform: lowercase;
+}
+
+/* RavenVFX Text */
+.container{
+  font-size: 100px;
+  color: white;
+  display: inline-block;
+  text-align: center;
+  margin-left: 22%;
+}
+
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+@keyframes blink {
+  from { border-color: transparent }
+  to { border-color: rgb(255, 255, 255); }
+}
+
+.typed-out{
+  overflow: hidden;
+  border-right: .11em solid rgb(255, 255, 255);
+  white-space: nowrap;
+  font-size: 5.2rem;
+  width: 0;
+  animation: 
+    typing 1s steps(8, end) forwards,
+    blink .8s infinite;
+
+}
+/* RavenVFX Text */
+
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.buttons {
+  margin: 2%;
+  text-align: center;
+  display: flex;
+}
+
+.btn-hover {
+  width: 200px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #fff;
+  cursor: pointer;
+  margin: 20px;
+  height: 55px;
+  text-align:center;
+  border: none;
+  background-size: 300% 100%;
+
+  border-radius: 50px;
+  -o-transition: all .4s ease-in-out;
+  -webkit-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
+}
+
+.btn-hover:hover {
+  background-position: 100% 0;
+  -o-transition: all .4s ease-in-out;
+  -webkit-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
+}
+
+.btn-hover:focus {
+  outline: none;
+}
+
+.btn-hover.color-10 {
+      background-image: linear-gradient(to right, #c9e376, #8fa059, rgb(193, 238, 90) , #969e74);
+      box-shadow: 0 4px 15px 0 #000000bf;
+}
+
